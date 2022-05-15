@@ -7,7 +7,7 @@ export function App(props) {
     return (
         <Router>
             <Routes>
-                <Route path='/' element={<Home />}/>
+                <Route path='/birthday' element={<Home />}/>
                 <Route path='/Menu' element={<Menu />}/>
             </Routes>
         </Router>
